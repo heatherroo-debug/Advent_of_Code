@@ -1,0 +1,15 @@
+Okay. So I need to take the input of a string of inputs of L# and R#.
+
+Need to set up a counter that will go sequentially +- from 0 to 99.
+Need to make that counter loop from 99 to 0 and from 0 to 99
+COutner needs to go in both directions up (clockwise) and down (counterclockwise)
+
+Input is a giant string
+Need to split string into each "word" of L# or R# retaining order and put in a list
+Then make a loop to go through each word in the list and split the first character from the rest. 
+evaluate if the first character is L or R
+if L then minus, if R then plus whatever the # is in that pair.
+Make that math on whatever the current count it. This needs to loop past the 0-99 transition.
+If the result of the move is only value 0 then increase a results counter up by one.
+
+After all pairs are evaluated then return the final count of zeros.
