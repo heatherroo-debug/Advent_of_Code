@@ -13,3 +13,6 @@ Make that math on whatever the current count it. This needs to loop past the 0-9
 If the result of the move is only value 0 then increase a results counter up by one.
 
 After all pairs are evaluated then return the final count of zeros.
+
+Maybe do a check if the sum is over 99 or below 0.
+Then doing a follow up equation to find the remainder to do it in two parts...
