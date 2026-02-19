@@ -14,6 +14,7 @@ def main():
     for instruction in rotate_list:
         direction = instruction[0]
         num = instruction[1:]
+        #change num from string to number type?!
         if direction == "L":
             current_position = current_position - num
         else:
