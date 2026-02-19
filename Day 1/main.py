@@ -9,11 +9,14 @@ def get_input(path_to_file):
 def main():
     input = get_input(sys.argv[1])
     zero_count = 0
-    current_position =0
+    current_position = 0
     rotate_list = input.split()
     for instruction in rotate_list:
         direction = instruction[0]
         num = instruction[1:]
-        
+        if direction == "L":
+            current_position = current_position - num
+        else:
+            current_position = current_position + num
     
 main()
